@@ -10,11 +10,11 @@ from PIL import Image
 from textblob import TextBlob  # Sentiment analysis
 
 # Load environment variables
-TOKEN = "<your_telegram_bot_token>"
-MONGO_URI = "<your_mongo_db_uri>"
-GOOGLE_API_KEY = "<your_google_api_key>"
-GOOGLE_CSE_ID = "<your_google_cse_id>"
-GEMINI_API_KEY = "<your_gemini_api_key>"
+TOKEN = "7750761932:AAGmCl3VtKm0CtIjx1wRYqjgqrXQ0tUl_rU"
+MONGO_URI = "mongodb://localhost:27017"
+GOOGLE_API_KEY = "AIzaSyDbXZ7LlDkplrYzP_0eyYA-9EICSf32aX4"
+GOOGLE_CSE_ID = "64bb9f28e5e324819"
+GEMINI_API_KEY = "AIzaSyAxXSuxmcb1mMWYCDm54ZPWZIocyBPYyfE"
 
 # Initialize Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
