@@ -1,0 +1,6 @@
+python-telegram-bot
+pymongo
+requests
+google-generativeai
+pillow
+textblob
