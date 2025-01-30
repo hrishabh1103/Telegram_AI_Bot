@@ -43,28 +43,6 @@ GOOGLE_CSE_ID=<your_google_cse_id>
 python bot.py
 ```
 
-## Deployment (Free Cloud Hosting)
-### Option 1: Deploy on Render
-1. Sign up at [Render](https://render.com) and create a new Web Service.
-2. Connect your GitHub repository.
-3. Set the Build Command:
-   ```sh
-   pip install -r requirements.txt
-   ```
-4. Set the Start Command:
-   ```sh
-   python bot.py
-   ```
-5. Add environment variables in the Render dashboard.
-6. Click **Deploy**.
-
-### Option 2: Deploy on Railway
-1. Sign up at [Railway](https://railway.app) and create a new project.
-2. Connect your GitHub repository.
-3. Set the Build and Start Commands as mentioned above.
-4. Add environment variables in the Railway dashboard.
-5. Click **Deploy**.
-
 ## Usage
 - Start the bot in Telegram by sending `/start`.
 - Select a feature from the menu.
